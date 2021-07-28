@@ -307,3 +307,37 @@ body{
 .d-content img{
   cursor: pointer;
 }
+.social{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social img{
+  padding-right:30px;
+  cursor: pointer;
+}
+.footer{
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  box-shadow: 0 -35px 20px 0 rgba(0, 0, 0, 0.03);
+}
+.f-one{
+  width: 40%;
+}
+.f-two{
+  width: 60%;
+  
+}
+.f-two .child{
+  display: flex;
+  justify-content: space-around;
+}
+.footer a {
+  color: #222222;
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 0.699999988079071;
+  text-align: left;
+  text-decoration: none;
+}
