@@ -109,7 +109,7 @@ body{
     width: 100%;
     min-height: 190px;
   }
-  .trust-right, .trust-left , .learn-left , .learn-right{
+  .trust-right,.expert-right, .expert-left, .trust-left , .learn-left , .learn-right{
     width: 50%;
   }
   .trust-left{
@@ -216,5 +216,19 @@ body{
 }
 .expert {
   background-image: linear-gradient(180deg, #E4FAF4 0%, #FFFFFF 100%);
-  min-height: 850px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.expert-left h3{
+    color: #222222;
+    font-size: 40px;
+    text-align: left;
+  
+}
+.expert-left p{
+  color: #222222;
+  font-family: Avenir;
+  font-size: 17px;
+  opacity: 0.699999988079071;
+  text-align: left;
 }
