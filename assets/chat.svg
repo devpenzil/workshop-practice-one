@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="79px" viewBox="0 0 87 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chat</title>
+    <defs>
+        <filter x="-76.9%" y="-76.9%" width="253.8%" height="253.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-12" transform="translate(16.000000, 6.000000)">
+            <circle id="Oval" fill="#00D09C" fill-rule="nonzero" cx="27.5" cy="27.5" r="27.5"></circle>
+            <circle id="Oval-Copy-5" fill="#00D09C" fill-rule="nonzero" opacity="0.300000012" filter="url(#filter-1)" cx="27.5" cy="37.5" r="19.5"></circle>
+            <g id="black-bubble-speech" transform="translate(14.000000, 12.000000)">
+                <path d="M25.2,0 L2.8,0 C1.26,0 0,1.296 0,2.88 L0,34 L5.6,28.64 L25.2,28.64 C26.74,28.64 28,27.344 28,25.76 L28,2.88 C28,1.296 26.74,0 25.2,0 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M20.925519,19.3442953 C19.7677089,22.1725985 17.0562099,24 14.0181258,24 C10.9146645,24 8.18719775,22.1633692 7.06945759,19.3207447 C6.87784499,18.8341378 7.0962713,18.2752878 7.55752742,18.0728796 C7.67080782,18.0235506 7.78830611,18 7.90399674,18 C8.25829928,18 8.59452516,18.221185 8.73883717,18.5887657 C9.57548527,20.7165968 11.6476731,22.0908078 14.0181258,22.0908078 C16.3349511,22.0908078 18.3950879,20.7156421 19.2663829,18.586538 C19.4646236,18.1024771 19.99668,17.8793826 20.454622,18.0891105 C20.9125641,18.2988384 21.1237597,18.8605527 20.925519,19.3442953 Z" id="Path" fill="#00D09C"></path>
+            </g>
+        </g>
+    </g>
+</svg>
