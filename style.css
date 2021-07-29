@@ -4,6 +4,10 @@ body {
   padding: 0;
   font-size: 17px;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+.res-search{
+  display: none !important;
 }
 .container {
   max-width: 992px;
@@ -531,5 +535,10 @@ body {
 }
 .child-none{
   display:none !important;
+}
+.res-search{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 }
