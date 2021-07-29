@@ -82,7 +82,7 @@ body {
   text-decoration: underline;
   text-decoration-color: #00d09c;
 }
-.hero-left p {
+.hero-left .des {
   color: #222222;
   font-size: 17px;
   line-height: 29px;
@@ -430,6 +430,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .trust-right,
 .expert-right,
 .expert-left,
@@ -437,11 +438,54 @@ body {
 .learn-left,
 .learn-right,
 .hero-left,
-.hero-right {
+.hero-right,
+.hero {
   width: 100%;
 }
-
-  .top{
+.img-res{
+  display:none;
+}
+.img-resp{
+  width:100%;
+}
+.top{
     display: none;
-  }
+}
+.hero-left .des{
+  width:100%;
+}
+.hero-left{
+  padding: 20px 20px;
+}
+.hero{
+  padding-top: 0px;
+}
+.trust{
+  padding:20px 20px;
+}
+.trust-right figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:10%;
+}
+.learn, .expert{
+  padding: 20px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
+.down-button{
+  display:flex;
+}
+.f-one, .f-two{
+  width: 100%;
+  padding:20px 20px;
+}
+.f-two .child {
+  display: flex;
+  flex-direction: column;
+}
 }
