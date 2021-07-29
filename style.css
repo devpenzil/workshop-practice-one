@@ -112,7 +112,7 @@ body {
 .trust {
   background-color: #e4faf4;
   box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
-  width: 100%;
+  
   min-height: 190px;
 }
 .trust-right,
@@ -290,12 +290,13 @@ body {
   justify-content: center;
 }
 
-.d-content span {
+.d-content .d-desc {
   color: #222222;
   font-size: 17px;
   line-height: 29px;
   opacity: 0.699999988079071;
   width: 414px;
+  word-wrap: break-word;
   text-align: center;
 }
 .d-content h3 {
@@ -380,6 +381,9 @@ body {
 .topnav .icon {
   display: none;
 }
+.footer-accordian{
+  display:none;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -425,7 +429,10 @@ body {
   outline: none;
   background-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
   .container{
     display: flex;
     flex-direction: column;
@@ -463,6 +470,11 @@ body {
 .trust{
   padding:20px 20px;
 }
+.trust{
+  width:100%;
+  margin: 0;
+
+}
 .trust-right figure {
   display: flex;
   flex-direction: column;
@@ -480,6 +492,9 @@ body {
 .down-button{
   display:flex;
 }
+.down-button img{
+  width: 120px;
+}
 .f-one, .f-two{
   width: 100%;
   padding:20px 20px;
@@ -487,5 +502,34 @@ body {
 .f-two .child {
   display: flex;
   flex-direction: column;
+}
+.footer-accordian{
+  display:block;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.child-none{
+  display:none !important;
 }
 }
