@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Practice one</title>
 </head>
@@ -16,10 +17,26 @@
             <div class="nav-item"><span>Language :</span><select name="lan" id="lan">
                 <option value="en">English</option>
                 <option value="hi">Hindi</option>
+                <img src="./assets/dropdown.svg" alt="">
             </select></div>
         </div>
-        <div class="main-nav">
-            
+        <div class="main-nav ">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active"><img src="./assets/logo.svg" alt=""></a>
+                <a href="#">
+                    <div class="search-funds">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" name="search" id="search" placeholder="search all mutual funds">
+                    </div>
+                </a>
+                <a href="#">Leran with fund guru</a>
+                <a href="#">Explore funds</a>
+                <a href="#">Ask the expert</a>
+                <a href="#">Login/Register</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
     </div>
     <!--NavBar-->
