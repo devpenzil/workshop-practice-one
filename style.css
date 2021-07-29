@@ -184,7 +184,7 @@ body {
 
 .learn-right ul {
   list-style-image: url(./assets/ok.svg);
-  overflow-x: auto !important;
+  overflow-x: unset !important;
 }
 .learn-right ul li {
   color: #222222;
@@ -192,6 +192,7 @@ body {
   line-height: 28px;
   opacity: 0.699999988079071;
   text-align: left;
+  margin-left: -40px;
 }
 .learn-right .know-more {
   background-color: #00d09c;
