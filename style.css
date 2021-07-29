@@ -184,6 +184,7 @@ body {
 
 .learn-right ul {
   list-style-image: url(./assets/ok.svg);
+  overflow-x: auto !important;
 }
 .learn-right ul li {
   color: #222222;
@@ -469,6 +470,7 @@ body {
 }
 .hero-left .des{
   width:100%;
+  padding-right: 60px;
 }
 .hero-left{
   padding: 10px 10px;
