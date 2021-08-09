@@ -14,8 +14,10 @@ body {
 }
 .container {
   max-width: 992px;
-  margin: auto;
+  /* margin: auto; */
   display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .chat {
   position: fixed;
@@ -30,6 +32,10 @@ body {
   filter: drop-shadow(5px 5px 10px #60f067);
   transform: scale(1.1);
 }
+.top-cover{
+  width: 100%;
+  background-color: #e4faf4;
+}
 .top {
   background-color: #e4faf4;
   height: 30px;
@@ -37,17 +43,21 @@ body {
   justify-content: flex-end;
   align-items: center;
   font-size: 15px;
-  padding-right: 40px;
+  max-width: 992px;
+  margin: auto;
 }
 .top .nav-item {
-  padding-left: 20px;
+  padding-left: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 13px;
+  line-height: 17.76px;
+  
 }
-.top .nav-item .img {
-  margin-right: 20px;
+.top .nav-item img {
+  margin-right: 11px;
 }
 .top select {
   background-color: rgba(0, 0, 0, 0);
@@ -59,7 +69,7 @@ body {
   background-image: url(./assets/dropdown.svg);
   background-repeat: no-repeat;
   background-position: right;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 .nav-item span {
   font-weight: 300;
@@ -84,10 +94,18 @@ body {
   text-align: left;
   font-weight: 300;
 }
-.hero-left h2 span {
+.hero-left h2 span{
+  position: absolute;
   font-weight: 600;
-  text-decoration: underline;
-  text-decoration-color: #00d09c;
+}
+.hero-left h2 span div {
+  background-color: #00D09C;
+  box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+  opacity: 0.3;
+  width: 86px;
+  height: 10px;
+  margin-top: -10px;
+  z-index: -3;
 }
 .hero-left .des {
   color: #222222;
@@ -96,6 +114,9 @@ body {
   opacity: 0.699999988079071;
   width: 455px;
   text-align: left;
+}
+.hero-left .des span{
+  font-weight: 600;
 }
 
 .hero-left p span {
@@ -150,6 +171,8 @@ body {
 }
 .trust-right div {
   display: flex;
+  flex-direction:row;
+
 }
 .trust-right figcaption {
   color: #222222;
@@ -157,34 +180,46 @@ body {
   opacity: 0.699999988079071;
   text-align: center;
 }
+.trust-right figure img{
+  width: 54px;
+  height: 64px;
+}
 .trust-right figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 5px;
+  border: 1px solid rgba(0, 208, 156, 0.2);
+  border-radius: 6px;
+  width: 110px;
 }
 .learn {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 161px;
+  padding-bottom: 161px;
 }
+/* .learn-right{
+  padding-left: 40px;
+} */
 .learn-right span {
   color: #222222;
   font-size: 17px;
-  line-height: 28px;
   opacity: 0.699999988079071;
   text-align: left;
 }
-.learn-right h3 {
+.learn-right p {
   color: #222222;
   font-size: 40px;
   font-weight: 600;
-  line-height: 52px;
   text-align: left;
 }
 
 .learn-right ul {
   list-style-image: url(./assets/ok.svg);
   overflow-x: unset !important;
+  line-height: 1.5rem;
+  list-style-position: outside;
+  
 }
 .learn-right ul li {
   color: #222222;
@@ -193,6 +228,7 @@ body {
   opacity: 0.699999988079071;
   text-align: left;
   margin-left: -40px;
+  margin-top: 20px;
 }
 .learn-right .know-more {
   background-color: #00d09c;
@@ -223,18 +259,29 @@ body {
   display: flex;
   align-items: center;
   cursor: pointer;
+  margin-left: 20px;
+}
+.fund-guru{
+  width: 627px;
+  height: 470px;
+  position: absolute;
+  left: 0;
 }
 .learn-right .watch img {
   margin-left: 20px;
 }
 .learn-right .buttons {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  margin-top: 20px;
 }
 .expert {
   background-image: linear-gradient(180deg, #e4faf4 0%, #ffffff 100%);
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+.expert-img{
+  width: 555px;
 }
 .expert-left h3 {
   color: #222222;
@@ -286,8 +333,8 @@ body {
   cursor: pointer;
 }
 .download {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 114px;
+  margin-bottom: 125px;
 }
 .d-content {
   width: 100%;
@@ -362,17 +409,32 @@ body {
   padding-bottom: 10px;
   width: max-content;
   margin: auto;
+ 
+}
+
+.nav-head{
+  padding-left: 0px !important;
+}
+
+.loginorregister{
+  font-weight: 600;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #000000;
+  color: #222222;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 300;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  
 }
 
 .topnav a:hover {
@@ -436,6 +498,12 @@ body {
   outline: none;
   background-color: rgba(0, 0, 0, 0);
 }
+@media only screen and (max-width: 768px) {
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 @media only screen and (max-width: 480px) {
   body{
    overflow-x:none;
@@ -443,12 +511,19 @@ body {
   .container{
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .hero{
     display: flex;
     flex-direction: column;
   }
-
+  .hero-left h2{
+    font-size: 30px;
+  }
+.nav-head{
+  padding-left: 20px;
+}
   .trust-right,
 .expert-right,
 .expert-left,
@@ -576,4 +651,14 @@ body {
   padding: 10px;
   margin: 10px;
 }
+.hero-left h2 {
+ font-size: 30px;
+}
+.fund-guru{
+position: relative;
+}
+.learn-right p {
+ font-size: 30px;
+}
+
 }
