@@ -1,7 +1,9 @@
 *{
   overflow-x: hidden;
 }
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -54,6 +56,7 @@ body {
   cursor: pointer;
   font-size: 13px;
   line-height: 17.76px;
+
   
 }
 .top .nav-item img {
@@ -156,6 +159,9 @@ body {
   align-items: center;
   min-height: 190px;
 }
+.trust-left h2{
+  font-size: 30px;
+}
 .trust-left p {
   color: #222222;
   font-size: 17px;
@@ -165,34 +171,29 @@ body {
 }
 .trust-right {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   min-height: 190px;
+  
 }
-.trust-right div {
-  display: flex;
-  flex-direction:row;
-
-}
-.trust-right figcaption {
-  color: #222222;
-  font-size: 14px;
-  opacity: 0.699999988079071;
-  text-align: center;
-}
-.trust-right figure img{
-  width: 54px;
-  height: 64px;
-}
-.trust-right figure {
+.figure{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5px;
-  border: 1px solid rgba(0, 208, 156, 0.2);
-  border-radius: 6px;
   width: 110px;
+  height: 110px;
+  margin: 20px;
+  border: 1px solid rgba(0, 208, 156, 0.2);
+}
+.figure img{
+  width: 54px;
+  height: 56px;
+}
+.figure span{
+  font-size: 14px;
+  color: #222222;
+  margin-top: 13px;
 }
 .learn {
   padding-top: 161px;
@@ -201,34 +202,33 @@ body {
 /* .learn-right{
   padding-left: 40px;
 } */
-.learn-right span {
+.learn-right .about-fund {
   color: #222222;
   font-size: 17px;
   opacity: 0.699999988079071;
   text-align: left;
+  margin-bottom: 4px;
 }
-.learn-right p {
+.learn-right .learn-with-guru {
   color: #222222;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
 }
 
-.learn-right ul {
-  list-style-image: url(./assets/ok.svg);
-  overflow-x: unset !important;
-  line-height: 1.5rem;
-  list-style-position: outside;
-  
-}
-.learn-right ul li {
+
+.learn-right .li {
+  display: flex;
+  align-items: center;
   color: #222222;
   font-size: 17px;
   line-height: 28px;
   opacity: 0.699999988079071;
   text-align: left;
-  margin-left: -40px;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+.learn-right .li img{
+  margin-right: 20px;
 }
 .learn-right .know-more {
   background-color: #00d09c;
@@ -272,41 +272,49 @@ body {
 }
 .learn-right .buttons {
   display: flex;
-  /* justify-content: space-around; */
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .expert {
   background-image: linear-gradient(180deg, #e4faf4 0%, #ffffff 100%);
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 89px;
+  padding-bottom: 103px;
+}
+.expert .cover{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .expert-img{
   width: 555px;
 }
-.expert-left h3 {
+.expert-left .ask-the-expert {
   color: #222222;
   font-size: 40px;
   text-align: left;
+  margin-top: 72px;
 }
-.expert-left p {
+.expert-left .schedule-meeting {
   color: #222222;
   font-size: 17px;
   opacity: 0.699999988079071;
   text-align: left;
+  margin-top: 20px;
 }
 .boxes {
   display: flex;
+  margin-top: 50px;
 }
 .box {
   word-wrap: break-word;
   margin: 10px;
-  width: 50%;
+  width: 252px;
   color: #222222;
   font-size: 17px;
   line-height: 29px;
   opacity: 0.699999988079071;
   width: 260px;
   text-align: left;
+  margin-right: 60px;
 }
 .box img {
   padding: 20px 20px;
@@ -316,6 +324,17 @@ body {
   color: #222222;
   font-size: 24px;
   text-align: left;
+  margin-top: 34px;
+}
+.box-desc{
+  color: #222222;
+  font-family: Avenir;
+  font-size: 17px;
+  line-height: 29px;
+  opacity: 0.699999988079071;
+  text-align: left;
+  word-wrap: break-word;
+  overflow: auto;
 }
 .now {
   background-color: #00d09c;
@@ -331,6 +350,7 @@ body {
   outline: none;
   border: none;
   cursor: pointer;
+  margin-top: 60px;
 }
 .download {
   margin-top: 114px;
@@ -485,7 +505,7 @@ body {
 .search-funds {
   background-color: #f5f5f5;
   border-radius: 6px;
-  width: 240px;
+  width: 335px;
   height: 42px;
   display: flex;
   align-items: center;
@@ -493,10 +513,13 @@ body {
 }
 .search-funds input {
   padding: 0;
-  margin-left: 10px;
+  margin-left: 30px;
   border: none;
   outline: none;
   background-color: rgba(0, 0, 0, 0);
+}
+.search-funds .search-icon{
+  margin-left: 20px;
 }
 @media only screen and (max-width: 768px) {
   .container{
@@ -507,6 +530,7 @@ body {
 @media only screen and (max-width: 480px) {
   body{
    overflow-x:none;
+   
   }
   .container{
     display: flex;
@@ -520,9 +544,47 @@ body {
   }
   .hero-left h2{
     font-size: 30px;
+    margin-top: 60px;
+  }
+  .hero-left .des{
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 29px;
+    opacity: 0.699999988079071;
+    width: 335px;
+    text-align: left;
+  }
+  .hero-left h2 span div {
+    background-color: #00D09C;
+    box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+    opacity: 0.3;
+    width: 69px;
+    height: 10px;
+    margin-top: -10px;
+    z-index: -3;
   }
 .nav-head{
   padding-left: 20px;
+
+}
+.trust-right .div{
+  display: flex !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.figure{
+  width: 88px;
+  height: 88px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  margin: 13px;
+}
+.learn-with-guru{
+  font-size: 30px !important;
 }
   .trust-right,
 .expert-right,
@@ -554,10 +616,10 @@ body {
 .hero{
   padding-top: 0px;
 }
-.trust{
+/* .trust{
 
   padding-right: 40px;
-}
+} */
 .trust{
   width:100%;
   margin: 0;
@@ -659,6 +721,15 @@ position: relative;
 }
 .learn-right p {
  font-size: 30px;
+}
+.expert .cover{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.down-button img{
+  width: 152px;
 }
 
 }

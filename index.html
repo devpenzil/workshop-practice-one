@@ -21,16 +21,26 @@
           </div>
           <div class="nav-item">Blog</div>
           <div class="nav-item">
-            <span>Language :</span
+            <span>Language : </span
             ><select name="lan" id="lan">
-              <option value="en">English</option>
-              <option value="hi">Hindi</option>
+              <option value="en"> English</option>
+              <option value="hi"> Hindi</option>
               <img src="./assets/dropdown.svg" alt="" />
             </select>
           </div>
+          
         </div>
       </div>
       <div class="main-nav">
+        <!-- <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div> -->
         <div class="topnav" id="myTopnav">
           <a href="#home" class="nav-head"
             ><img src="./assets/logo.svg" alt=""
@@ -50,7 +60,7 @@
           <a href="#">Explore funds</a>
           <a href="#">Ask the expert</a>
           <a href="#" class="loginorregister">Login/Register</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" oncdivck="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
@@ -61,7 +71,7 @@
     <!--Search-->
     <div class=" res-search container  ">
       <div class="search-funds">
-        <i class="fa fa-search" aria-hidden="true"></i>
+        <i class="fa fa-search search-icon" aria-hidden="true"></i>
         <input
           type="text"
           name="search"
@@ -106,26 +116,25 @@
           </div>
         </div>
         <div class="trust-right">
-          <div>
-           <div>
-            <figure>
+           <div class="div">
+            <div class="figure">
               <img src="./assets/Investing1.svg" alt="invest" />
-              <figcaption>ATR-823742</figcaption>
-            </figure>
+              <span>ATR-823742</span>
+            </div>
            </div>
            <div>
-            <figure>
+            <div class="figure">
               <img src="./assets/Investing2.svg" alt="invest" />
-              <figcaption>INA2000382</figcaption>
-            </figure>
+              <span>INA2000382</span>
+            </div>
            </div>
            <div>
-            <figure>
+            <div class="figure">
               <img src="./assets/Investing3.svg" alt="invest" />
-              <figcaption>M.Code 2384</figcaption>
-            </figure>
+              <span>M.Code 2384</span>
+            </div>
            </div>
-          </div>
+         
         </div>
       </div>
     </div>
@@ -138,17 +147,16 @@
           <img class="img-resp fund-guru" src="./assets/Fund.svg" alt="" />
         </div>
         <div class="learn-right">
-          <span>About mutal funds</span>
-          <p>Learn with Fund Guru</p>
+          <div class="about-fund"> About mutal funds</div> 
+          <div class="learn-with-guru">Learn with Fund Guru</div>
 
-          <ul>
-            <li> <img src="./assets/ok.svg" alt=""> Learn with Fund Guru</li>
-            <li> <img src="./assets/ok.svg" alt="">  Benefits of Investing in Mutual Funds</li>
-            <li> <img src="./assets/ok.svg" alt=""> Mutual Fund Schemes and Types</li>
-            <li> <img src="./assets/ok.svg" alt="">  Ways to Choose Mutual Fund Schemes</li>
-            <li> <img src="./assets/ok.svg" alt="">  Offer Documents and Statements</li>
-            <li> <img src="./assets/ok.svg" alt="">  Transactions in Mutual Funds</li>
-          </ul>
+            <div class="li"> <img src="./assets/ok.svg" alt=""> Learn with Fund Guru</div>
+            <div class="li"> <img src="./assets/ok.svg" alt="">  Benefits of Investing in Mutual Funds</div>
+            <div class="li"> <img src="./assets/ok.svg" alt=""> Mutual Fund Schemes and Types</div>
+            <div class="li"> <img src="./assets/ok.svg" alt="">  Ways to Choose Mutual Fund Schemes</div>
+            <div class="li"> <img src="./assets/ok.svg" alt="">  Offer Documents and Statements</div>
+            <div class="li"> <img src="./assets/ok.svg" alt="">  Transactions in Mutual Funds</div>
+        
           <div class="buttons">
             <button class="know-more">Know more</button>
             <button class="watch">
@@ -162,33 +170,35 @@
 
     <!--Expert-->
     <div class="expert">
-      <div class="container">
+      <div class="cover">
         <div class="expert-left">
-          <h3>Ask the Expert</h3>
-          <p>You can schedule a meeting with an expense manager</p>
+          <div class="ask-the-expert">Ask the Expert</div>
+          <div class="schedule-meeting">You can schedule a meeting with an expense manager</div>
           <div class="boxes">
             <div class="box">
               <img src="./assets/cash.svg" alt=""  /> <br />
               <span class="head"><h4>Investing made easy</h4></span>
-
-              Three simple options- cautions, balanced, adventurous. Expert will
-              take care of rest!
+                <div class="box-desc">
+                  Three simple options- cautions, balanced, adventurous. Expert will
+                  take care of rest!
+                </div>
 
               <button class="now">Invest now</button>
             </div>
             <div class="box">
               <img src="./assets/cash.svg" alt="" /> <br />
-              <span class="head"> <h4>Investing made easy</h4> </span>
-
-              Expert will give you the best advice. Schedule a meeting with the
-              expert to know mutual funds better. <br>
+              <span class="head"> <h4>Schedule now</h4> </span>
+                <div class="box-desc">
+                  Expert will give you the best advice. Schedule a meeting with the
+                  expert to know mutual funds better. <br>
+                </div>
 
               <button class="now">Schedule now</button>
             </div>
           </div>
         </div>
         <div class="expert-right">
-          <img class="img-res expert-img" src="./assets/Expert.png" width="80%" alt="" /> 
+          <img class="img-res expert-img" src="./assets/Expert.png" width="80%" alt="" />
         </div>
       </div>
     </div>
@@ -200,8 +210,8 @@
         <div class="d-content">
           <h3>Manage your Investment from your hand.</h3>
           <div class="d-desc">
-            Now you will be at ease of investing, buying and selling <br />
-            easier with just a click.
+            Now you will be at ease of investing, buying and seldivng <br />
+            easier with just a cdivck.
           </div>
           <div>
             <h4>Download the app</h4>
@@ -223,19 +233,19 @@
         </div>
         <div class="f-two">
             <div class="footer-accordian">
-                
+
                     <button class="accordion">Top funded houses</button>
                     <div class="panel">
                         <a href="#">SBI mutual fund</a> <br />
                         <a href="#">HDFC mutual funds</a> <br />
-                        <a href="#">Reliance mutual fund</a> <br />
+                        <a href="#">Redivance mutual fund</a> <br />
                         <a href="#">L&T mutual fund</a> <br />
                     </div>
 
                     <button class="accordion">Quick links</button>
                     <div class="panel child">
                         <div>
-                            
+
                             <a href="#">Explore funds</a> <br />
                             <a href="#">Direct mutual funds</a> <br />
                             <a href="#">Personal Loan</a> <br />
@@ -245,7 +255,7 @@
 
                     <button class="accordion"> Resources</button>
                     <div class="panel">
-                       
+
                         <a href="#">Calculator</a> <br />
                         <a href="#">Beginners guide </a> <br />
                         <a href="#">sitemap</a> <br />
@@ -254,7 +264,7 @@
             </div>
           <div class=" child-none child " >
             <div>
-              <h5>Quick links</h5>
+              <h5>Quick divnks</h5>
               <a href="#">Explore funds</a> <br />
               <a href="#">Direct mutual funds</a> <br />
               <a href="#">Personal Loan</a> <br />
@@ -264,7 +274,7 @@
               <h5>Top funded houses</h5>
               <a href="#">SBI mutual fund</a> <br />
               <a href="#">HDFC mutual funds</a> <br />
-              <a href="#">Reliance mutual fund</a> <br />
+              <a href="#">Redivance mutual fund</a> <br />
               <a href="#">L&T mutual fund</a> <br />
             </div>
             <div>
