@@ -215,7 +215,18 @@ body {
   font-weight: 600;
   text-align: left;
 }
-
+.footer-base{
+  display: flex;
+  justify-content: space-between;
+}
+.copyright{
+    color: #222222;
+    font-size: 12px;
+    line-height: 30px;
+    opacity: 0.699999988079071;
+    text-align: left;
+    padding: 10px;
+}
 
 .learn-right .li {
   display: flex;
@@ -429,7 +440,8 @@ body {
   padding-bottom: 10px;
   width: max-content;
   margin: auto;
- 
+
+  
 }
 
 .nav-head{
@@ -663,23 +675,26 @@ body {
 }
 .footer-accordian{
   display:block;
+  overflow: auto;
 }
 .accordion {
-  background-color: #eee;
+  border: 2px solid #F0F0F0;
+  width: 335px;
+  height: 52px;
   color: #444;
   cursor: pointer;
   padding: 18px;
   margin: 10px;
-  width: 100%;
-  border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  background-color: rgb(255, 255, 255); 
+  overflow: hidden;
 }
 
 .accordion:hover {
-  background-color: #ccc; 
+  background-color: rgb(255, 255, 255); 
 }
 
 .panel {
@@ -730,6 +745,21 @@ position: relative;
 }
 .down-button img{
   width: 152px;
+}
+.child-respo{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+.child-respo div{
+  width: 40%;
+  text-align: center;
+}
+.footer-base{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 }

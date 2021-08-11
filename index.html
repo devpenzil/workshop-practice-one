@@ -60,7 +60,7 @@
           <a href="#">Explore funds</a>
           <a href="#">Ask the expert</a>
           <a href="#" class="loginorregister">Login/Register</a>
-          <a href="javascript:void(0);" class="icon" oncdivck="myFunction()">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
@@ -244,18 +244,14 @@
 
                     <button class="accordion">Quick links</button>
                     <div class="panel child">
-                        <div>
-
                             <a href="#">Explore funds</a> <br />
                             <a href="#">Direct mutual funds</a> <br />
                             <a href="#">Personal Loan</a> <br />
-                            <a href="#">Loan Pass</a> <br />
-                          </div>
+                            <a href="#">Loan Pass</a> <br /> 
                     </div>
 
                     <button class="accordion"> Resources</button>
                     <div class="panel">
-
                         <a href="#">Calculator</a> <br />
                         <a href="#">Beginners guide </a> <br />
                         <a href="#">sitemap</a> <br />
@@ -264,7 +260,7 @@
             </div>
           <div class=" child-none child " >
             <div>
-              <h5>Quick divnks</h5>
+              <h5>Quick links</h5>
               <a href="#">Explore funds</a> <br />
               <a href="#">Direct mutual funds</a> <br />
               <a href="#">Personal Loan</a> <br />
@@ -284,7 +280,7 @@
               <a href="#">sitemap</a> <br />
             </div>
           </div>
-          <div class="child">
+          <div class="child child-respo">
             <div>
               <h5>write us at</h5>
               <a href="#">contact@neofund.com</a> <br />
@@ -300,17 +296,23 @@
               <img src="./assets/app4.svg" alt="" />
             </div>
           </div>
+         
         </div>
       </div>
     </div>
     <!--Footer close-->
-
+    <hr>
     <!--social-->
-    <div class="social">
-      <img src="./assets/social 1.svg" alt="" />
-      <img src="./assets/social 2.svg" alt="" />
-      <img src="./assets/social 3.svg" alt="" />
-      <img src="./assets/social 4.svg" alt="" />
+    <div class="footer-base">
+      <div class="copyright">
+        <p>Copyright 2019 Mutal Funds. All rights reserved.</p>
+      </div>
+      <div class="social">
+        <img src="./assets/social 1.svg" alt="" />
+        <img src="./assets/social 2.svg" alt="" />
+        <img src="./assets/social 3.svg" alt="" />
+        <img src="./assets/social 4.svg" alt="" />
+      </div>
     </div>
     <!--social-->
 
@@ -321,5 +323,15 @@
     <!--Chat button-->
 
     <script src="./script.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
