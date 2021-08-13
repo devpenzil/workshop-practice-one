@@ -4,7 +4,7 @@
    }
     body{
        width: 100%;
-       overflow-x: hidden;   
+       /* overflow-x: hidden;    */
    }
    .navbar,.search-fund{
     padding: 20px 20px;
@@ -21,8 +21,11 @@
       padding: 20px 20px;
     }
     .trust-right{
-        padding: 20px 20px;
+        /* padding: 20px 20px; */
         width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
     }
    
     .margin-left{
@@ -55,8 +58,11 @@
   
   }
   .trust-right .figure{
-   width: 88px;
+   width: 60px;
   }
+  /* .trust-right .div{
+    width: 88px;
+   } */
   .figure{
     width: 88px;
     height: 88px;
@@ -108,12 +114,16 @@
 
   .trust-left{
     word-wrap: break-word;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
   }
-  .learn, .expert{
-    padding: 20px;
-    
+  .learn {
+    padding-top: 80px !important; 
+    padding-bottom: 80px !important; 
+  }
+  .expert{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .boxes {
     display: flex;
