@@ -18,7 +18,7 @@
     .hero{
       display: flex;
       flex-direction: column;
-      padding: 20px 20px;
+      /* padding: 20px 20px; */
     }
     .trust-right{
         /* padding: 20px 20px; */
@@ -100,9 +100,9 @@
     width:100%;
     padding-right: 60px;
   }
-  .hero-left{
+  /* .hero-left{
     padding: 10px 10px;
-  }
+  } */
   .hero{
     padding-top: 0px;
   }
@@ -137,7 +137,7 @@
   }
   .f-one, .f-two{
     width: 90%;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
   
     
   }
@@ -148,6 +148,7 @@
   .footer-accordian{
     display:block;
     overflow: auto;
+    margin: 0;
     
   }
   .accordion {
@@ -216,7 +217,7 @@
     flex-wrap: wrap;
   }
   .child-respo div{
-    width: 40%;
+    /* width: 40%; */
     text-align: center;
   }
   .footer-base{
@@ -229,5 +230,6 @@
     margin: 20px;
     width: 335px;
   }
+ 
   
   }
