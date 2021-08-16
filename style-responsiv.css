@@ -4,7 +4,7 @@
    }
     body{
        width: 100%;
-       /* overflow-x: hidden;    */
+       overflow-x: hidden;   
    }
    .navbar,.search-fund{
     padding: 20px 20px;
@@ -13,8 +13,9 @@
     margin: auto; 
    }
     .container{
+      width: 320px;
       display: flex;
-      flex-direction: column;
+      flex-direction: column !important;
       margin-left: 20px;
       margin-right: 20px;
     }
