@@ -9,6 +9,9 @@
    .navbar,.search-fund{
     padding: 20px 20px;
    }
+   .topnav{
+    margin: auto; 
+   }
     .container{
       display: flex;
       flex-direction: column;

@@ -17,6 +17,40 @@
   src: url('./assets/fonts/Futura_Book_font.ttf') format('opentype');
 }
 
+@media only screen and (max-width: 1440px){
+  .hero{
+    width: 1440px;
+  }
+  .hero-img{
+    width: 525px;
+    height: 508px;
+  }
+  .hero-left{
+    width: 455px;
+  }
+  .top {
+    width: 992px;
+  }
+  .container{
+    width: 992px;
+  }
+  /* .trust-left{
+    width: 50%;
+  } */
+  
+  .expert-img{
+    width: 525px;
+    height: 658px;
+  }
+  .expert-left{
+    width: 572px;
+  }
+  .trust .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -28,11 +62,10 @@ body {
   display: none !important;
 }
 .hero-img{
-  width: 525px;
-  height: 508px;
+  /* width: 525px; */
+  /* height: 508px; */
 }
 .container {
-  max-width: 992px;
   /* margin: auto; */
   display: flex;
   margin-left: 150px;
@@ -63,7 +96,7 @@ body {
   align-items: center;
   font-size: 15px;
   max-width: 992px;
-  margin: auto;
+  
 }
 .top .nav-item {
   padding-left: 24px;
@@ -109,6 +142,7 @@ body {
   justify-content: flex-end;
   
 }
+
 .hero-left h2 {
   color: #222222;
   font-size: 40px;
@@ -167,11 +201,10 @@ body {
   background-color: #e4faf4;
   box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
   min-height: 190px;
+  
 }
-.trust-right,
 .expert-right,
 .expert-left,
-.trust-left,
 .learn-left,
 .learn-right {
   width: 50%;
@@ -198,6 +231,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   min-height: 190px;
+ 
   
 }
 .figure{
@@ -319,10 +353,10 @@ body {
   margin-left: 150px;
   margin-right: 150px;
 }
-.expert-img{
+/* .expert-img{
   width: 525px;
   height: 658px;
-}
+} */
 .expert-left .ask-the-expert {
   color: #222222;
   font-size: 40px;
@@ -464,10 +498,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 1020px;
-
-  margin: auto;
-
-  
+ 
 }
 
 
@@ -563,12 +594,12 @@ body {
 .search-funds .search-icon{
   margin-left: 20px;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .container{
     margin-left: 20px;
     margin-right: 20px;
   }
-}
+} */
 /* ---------------------------------------------------------------
 ---------------------------------------------------------------
 ---------------------------------------------------------------
