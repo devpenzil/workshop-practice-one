@@ -18,38 +18,52 @@
 }
 
 @media only screen and (max-width: 1440px){
-  .hero{
+ .container{
+   width: 992;
+ }
+}
+@media only screen and (max-width: 5000px){
+  .container{
     width: 1440px;
   }
-  .hero-img{
-    width: 525px;
-    height: 508px;
-  }
-  .hero-left{
-    width: 455px;
-  }
-  .top {
-    width: 992px;
-  }
-  .container{
-    width: 992px;
-  }
-  /* .trust-left{
-    width: 50%;
-  } */
-  
-  .expert-img{
-    width: 525px;
-    height: 658px;
-  }
-  .expert-left{
-    width: 572px;
-  }
-  .trust .container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+ }
+.hero{
+  width: 1440px;
+}
+.hero-img{
+  width: 525px;
+  height: 508px;
+}
+.hero-left{
+  width: 455px;
+}
+.top {
+  width: 992px;
+}
+.container{
+  width: 992px;
+}
+/* .trust-left{
+  width: 50%;
+} */
+
+.expert-img{
+  width: 525px;
+  height: 658px;
+}
+.expert-left{
+  width: 572px;
+}
+.trust .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fund-guru{
+  width: 627px;
+  height: 470px;
+  position: absolute;
+  left: 0;
 }
 body {
   margin: 0;
@@ -330,12 +344,7 @@ body {
   cursor: pointer;
   margin-left: 20px;
 }
-.fund-guru{
-  width: 627px;
-  height: 470px;
-  position: absolute;
-  left: 0;
-}
+
 .learn-right .watch img {
   margin-left: 20px;
 }
@@ -606,3 +615,5 @@ body {
 ----------------------------------------------------------------
 ------------------------------------------------------------
 ---------------------------------------------------------------- */
+
+
