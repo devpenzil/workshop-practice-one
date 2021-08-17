@@ -216,6 +216,7 @@
     width: 152px;
   }
   .child-respo{
+
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: wrap;
@@ -233,6 +234,12 @@
   .search-funds{
     margin: 20px;
     width: 335px;
+  }
+  .extra-foot{
+    display: block;
+  }
+  .topnav{
+    padding-left: 0px;
   }
  
   
