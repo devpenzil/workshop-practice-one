@@ -19,32 +19,34 @@
 
 @media only screen and (max-width: 1440px){
  .container{
-   width: 992px;
+   width: 1200px;
    margin: auto;
  }
 }
-@media only screen and (max-width: 5000px){
+@media only screen and (min-width: 1440px){
   .container{
     width: 1440px;
     margin: auto;
   }
  }
-.hero{
-  width: 1440px;
-}
+
 .hero-img{
   width: 525px;
   height: 508px;
+ 
 }
+
 .hero-left{
   width: 455px;
+  
 }
-.top {
+/* .top {
   width: 992px;
-}
+} */  
 .container{
-  width: 992px;
+  width: 1100px;
   margin: auto;
+
 }
 /* .trust-left{
   width: 50%;
@@ -111,7 +113,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   font-size: 15px;
-  max-width: 992px;
+  /* max-width: 992px; */
   
 }
 .top .nav-item {
@@ -147,16 +149,15 @@ body {
   display: flex;
   padding-top: 40px;
   padding-bottom: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.hero-right,
-.hero-left {
-  
-  width: 50%;
-}
+
 .hero-right {
   display: flex;
   justify-content: flex-end;
-  
+  width: 630px;
 }
 
 .hero-left h2 {
@@ -569,9 +570,13 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    position: absolute;
+    right: 10px;
+  
   }
   .topnav {
     width: 100%;
+    
   }
 }
 
@@ -614,6 +619,25 @@ body {
 }
 .extra-foot{
   display: none;
+}
+.nav-bar-main{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-main a{
+  float: left;
+  display: block;
+  color: #222222;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  font-family: 'avenir_book';
+  height: 50px;
 }
 /* @media only screen and (max-width: 768px) {
   .container{
