@@ -1,68 +1,67 @@
 @media only screen and (max-width: 480px) {
-   *{
-       overflow-x: hidden;
-   }
-    body{
-       width: 100%;
-       overflow-x: hidden;   
-   }
-   .navbar,.search-fund{
-    padding: 20px 20px;
-   }
-   .topnav{
-    margin: auto; 
-   }
-    .container{
-      width: 320px;
-      display: flex;
-      flex-direction: column !important;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-    .hero{
-      display: flex;
-      flex-direction: column;
-      /* padding: 20px 20px; */
-    }
-    .trust-right{
-        /* padding: 20px 20px; */
-        width: 300px;
-        display: flex;
-       
-        overflow-x: auto;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-around; */
-    }
-   
-    .hero-left h2{
-      font-size: 30px;
-      margin-top: 10px;
-    }
-    .hero-left .des{
-      color: #222222;
-      font-family: Avenir;
-      font-size: 17px;
-      line-height: 29px;
-      opacity: 0.699999988079071;
-      width: 335px;
-      text-align: left;
-    }
-    .hero-left h2 span div {
-      background-color: #00D09C;
-      box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
-      opacity: 0.3;
-      width: 69px;
-      height: 10px;
-      margin-top: -10px;
-      z-index: -3;
-    }
-  .nav-head{
-    padding-left: 20px;
-  
+  * {
+    overflow-x: hidden;
   }
- 
-  
-  .figure{
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .navbar,
+  .search-fund {
+    padding: 20px 20px;
+  }
+  .topnav {
+    margin: auto;
+  }
+  .container {
+    width: 320px;
+    display: flex;
+    flex-direction: column !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 20px; */
+  }
+  .trust-right {
+    /* padding: 20px 20px; */
+    width: 300px;
+    display: flex;
+
+    overflow-x: auto;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+  }
+
+  .hero-left h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .hero-left .des {
+    color: #222222;
+    font-family: Avenir;
+    font-size: 17px;
+    line-height: 29px;
+    opacity: 0.699999988079071;
+    width: 335px;
+    text-align: left;
+  }
+  .hero-left h2 span div {
+    background-color: #00d09c;
+    box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
+    opacity: 0.3;
+    width: 69px;
+    height: 10px;
+    margin-top: -10px;
+    z-index: -3;
+  }
+  .nav-head {
+    padding-left: 20px;
+  }
+
+  .figure {
     width: 88px;
     height: 88px;
     padding: 20px;
@@ -72,14 +71,14 @@
     align-items: center !important;
     margin: 13px;
   }
-  .figure span{
+  .figure span {
     text-align: center;
     font-size: 11px;
   }
-  .learn-with-guru{
+  .learn-with-guru {
     font-size: 30px !important;
   }
-    
+
   .expert-right,
   .expert-left,
   .trust-left,
@@ -90,37 +89,36 @@
   .hero {
     width: 100%;
   }
-  .img-res{
-    display:none;
+  .img-res {
+    display: none;
   }
-  .img-resp{
-    width:100%;
+  .img-resp {
+    width: 100%;
   }
-  .top{
-      display: none;
+  .top {
+    display: none;
   }
-  .hero-left .des{
-    width:100%;
+  .hero-left .des {
+    width: 100%;
     padding-right: 60px;
   }
   /* .hero-left{
     padding: 10px 10px;
   } */
-  .hero{
+  .hero {
     padding-top: 0px;
   }
- 
- 
-  .trust-left{
+
+  .trust-left {
     word-wrap: break-word;
     /* padding-left: 20px;
     padding-right: 20px; */
   }
   .learn {
-    padding-top: 80px !important; 
-    padding-bottom: 80px !important; 
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
-  .expert{
+  .expert {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -128,30 +126,28 @@
     display: flex;
     flex-direction: column;
   }
-  .down-button{
-    display:flex;
+  .down-button {
+    display: flex;
   }
-  .down-button img{
+  .down-button img {
     width: 120px;
   }
-  .f-one, .f-two{
+  .f-one,
+  .f-two {
     width: 100%;
     /* padding: 10px 10px; */
-  
-    
   }
   .f-two .child {
     display: flex;
     flex-direction: column;
   }
-  .footer-accordian{
-    display:block;
+  .footer-accordian {
+    display: block;
     overflow: auto;
     margin: 0;
-    
   }
   .accordion {
-    border: 2px solid #F0F0F0;
+    border: 2px solid #f0f0f0;
     width: 100%;
     height: 52px;
     color: #444;
@@ -162,7 +158,7 @@
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -180,90 +176,86 @@
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
     display: flex;
     justify-content: space-between;
   }
-  .nav-accordion .nav-panel a{
+  .nav-accordion .nav-panel a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     padding: 10px 10px;
   }
-  .fa-bars{
+  .fa-bars {
     font-size: 26px;
   }
   .accordion:hover {
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
   }
-  
+
   .panel {
     padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
   }
-  .child-none{
-    display:none !important;
+  .child-none {
+    display: none !important;
   }
-  .res-search{
+  .res-search {
     display: flex !important;
     justify-content: center;
     align-items: center;
   }
-  .trust-right div .figure img{ 
+  .trust-right div .figure img {
     width: 50px;
   }
 
-
-  
   .hero-left h2 {
-   font-size: 30px;
+    font-size: 30px;
   }
-  .fund-guru{
-  position: relative;
+  .fund-guru {
+    position: relative;
   }
   .learn-right p {
-   font-size: 30px;
+    font-size: 30px;
   }
-  .expert .cover{
+  .expert .cover {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .down-button img{
+  .down-button img {
     width: 152px;
   }
-  .child-respo{
+  .child-respo {
     display: flex !important;
     flex-direction: row !important;
     flex-wrap: wrap;
-    
   }
-  .child-respo div{
+  .child-respo div {
     /* width: 100px; */
     text-align: center;
   }
-  .footer-base{
+  .footer-base {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
-  .search-funds{
+  .search-funds {
     margin: 20px;
     width: 335px;
   }
-  .extra-foot{
+  .extra-foot {
     display: block;
   }
-  .topnav{
+  .topnav {
     padding-left: 0px;
   }
-  .nav-bar-main{
+  .nav-bar-main {
     display: none;
   }
-  
-  }
+}
