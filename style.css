@@ -246,6 +246,8 @@ body {
 }
 .trust-left h2 {
   font-size: 30px;
+  font-family: 'futura_book';
+  letter-spacing: 2;
 }
 .trust-left p {
   color: #222222;
@@ -385,6 +387,8 @@ body {
   font-size: 40px;
   text-align: left;
   margin-top: 72px;
+  font-family: 'futura_book';
+  font-weight: 500;
 }
 .expert-left .schedule-meeting {
   color: #222222;
@@ -411,13 +415,17 @@ body {
 }
 .box img {
   padding: 20px 20px;
-  background-color: #e8f9f5;
+  background-color: #E8F9F5;
+  width: 25px;
+  height: 30px;
+  border-radius: 4px;
 }
 .box head {
   color: #222222;
   font-size: 24px;
   text-align: left;
   margin-top: 34px;
+  font-family: 'futura_book';
 }
 .box-desc {
   color: #222222;
@@ -444,6 +452,7 @@ body {
   border: none;
   cursor: pointer;
   margin-top: 60px;
+  font-family: 'avenir';
 }
 .download {
   margin-top: 114px;
@@ -655,6 +664,30 @@ body {
   align-items: center;
   font-family: "avenir_book";
   height: 50px;
+}
+.footerlogo{
+  width: 84px;
+}
+.footername{
+  color: #222222;
+  font-family: 'futura_book';
+  font-size: 30px;
+  letter-spacing: 4.5px;
+  line-height: 39px;
+  text-align: left;
+  font-weight: 600;
+}
+.footer-links h5{
+  font-size: 17px;
+  font-family: 'avenir';
+  color: #222222;
+}
+.footer-links div a{
+  line-height: 2;
+}
+.line{
+  background-color: #222222;
+  opacity: 0.5;
 }
 /* @media only screen and (max-width: 768px) {
   .container{
