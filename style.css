@@ -57,9 +57,9 @@
   width: 525px;
   height: 658px;
 }
-.expert-left {
+/* .expert-left {
   width: 572px;
-}
+} */
 .trust .container {
   display: flex;
   flex-direction: row;
@@ -69,8 +69,7 @@
   width: 627px;
   height: 470px;
   margin-left: 0px;
-  /* position: absolute;
-  left: 0; */
+ 
 }
 body {
   margin: 0;
@@ -389,6 +388,7 @@ body {
   margin-top: 72px;
   font-family: 'futura_book';
   font-weight: 500;
+  
 }
 .expert-left .schedule-meeting {
   color: #222222;
@@ -400,10 +400,13 @@ body {
 .boxes {
   display: flex;
   margin-top: 50px;
+  /* margin-right: 30px; */
+  width: 572px;
+  
 }
 .box {
   word-wrap: break-word;
-  margin: 10px;
+  margin: 5px;
   width: 252px;
   color: #222222;
   font-size: 17px;
@@ -411,7 +414,9 @@ body {
   opacity: 0.699999988079071;
   width: 260px;
   text-align: left;
-  margin-right: 60px;
+  height: 349px;
+
+  
 }
 .box img {
   padding: 20px 20px;
@@ -420,8 +425,8 @@ body {
   height: 30px;
   border-radius: 4px;
 }
-.box head {
-  color: #222222;
+.box .head {
+  color: black;
   font-size: 24px;
   text-align: left;
   margin-top: 34px;
@@ -436,6 +441,9 @@ body {
   text-align: left;
   word-wrap: break-word;
   overflow: auto;
+  height: max-content ;
+  width: 260px;
+  height: 116px;
 }
 .now {
   background-color: #00d09c;
