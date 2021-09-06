@@ -41,6 +41,7 @@
 
 .hero-left {
   width: 455px;
+  padding-left: 15px;
 }
 /* .top {
   width: 992px;
@@ -154,8 +155,8 @@ body {
 }
 .hero {
   display: flex;
-  padding-top: 40px;
-  padding-bottom: 65px;
+  padding-top: 35px;
+  padding-bottom:30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -173,7 +174,7 @@ body {
   line-height: 47.95px;
   text-align: left;
   font-weight: 300;
-  margin-top: 93px;
+  margin-top: 83px;
   font-family: "futura_book";
 }
 .hero-left h2 span {
@@ -197,6 +198,7 @@ body {
   font-family: "avenir_light";
   width: 455px;
   text-align: left;
+  margin-top: -12px;
 }
 .hero-left .des span {
   font-weight: 600;
@@ -219,12 +221,13 @@ body {
   line-height: 24.59px;
   text-align: center;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 .trust {
   background-color: #e4faf4;
   box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
   min-height: 190px;
+  
 }
 /* .expert-right,
 .expert-left,
@@ -242,6 +245,7 @@ body {
   justify-content: left;
   align-items: center;
   min-height: 190px;
+  margin-left: 15px;
 }
 .trust-left h2 {
   font-size: 30px;
@@ -268,7 +272,7 @@ body {
   justify-content: center;
   width: 110px;
   height: 110px;
-  margin: 20px;
+  margin-left: 25px;
   border: 1px solid rgba(0, 208, 156, 0.2);
 }
 .figure img {
@@ -281,8 +285,8 @@ body {
   margin-top: 13px;
 }
 .learn {
-  padding-top: 161px;
-  padding-bottom: 161px;
+  padding-top: 150px;
+  padding-bottom: 100px;
   margin: auto;
 }
 /* .learn-right{
@@ -294,12 +298,14 @@ body {
   opacity: 0.699999988079071;
   text-align: left;
   margin-bottom: 4px;
+  margin-left: 20px;
 }
 .learn-right .learn-with-guru {
   color: #222222;
   font-size: 40px;
   font-weight: 600;
   text-align: left;
+  margin-left: 20px;
 }
 .footer-base {
   display: flex;
@@ -323,6 +329,7 @@ body {
   opacity: 0.699999988079071;
   text-align: left;
   margin-top: 15px;
+  margin-left: 20px;
 }
 .learn-right .li img {
   margin-right: 20px;
@@ -340,6 +347,9 @@ body {
   line-height: 24.59px;
   text-align: center;
   cursor: pointer;
+  margin-left: 20px;
+  margin-top: -10px;
+
 }
 .learn-right .watch {
   background-color: #ffffff;
@@ -371,6 +381,7 @@ body {
   padding-top: 89px;
   padding-bottom: 103px;
   margin: auto;
+  padding-left: 20px;
 }
 .expert .cover {
   display: flex;
@@ -399,7 +410,7 @@ body {
 }
 .boxes {
   display: flex;
-  margin-top: 50px;
+  margin-top: 35px;
   /* margin-right: 30px; */
   width: 572px;
   
@@ -444,27 +455,31 @@ body {
   height: max-content ;
   width: 260px;
   height: 116px;
+  margin-top: -15px;
 }
 .now {
   background-color: #00d09c;
   border-radius: 4px;
   box-shadow: 0 5px 20px 0 rgba(90, 202, 157, 0.05);
-  width: 159px;
+  padding-left: 32px;
+  padding-right: 32px;
   height: 52px;
   color: #ffffff;
   font-size: 18px;
   line-height: 24.59px;
   text-align: center;
-  margin-top: 20px;
   outline: none;
   border: none;
   cursor: pointer;
-  margin-top: 60px;
+  margin-top: 30px;
   font-family: 'avenir';
 }
+.right-box{
+  margin-left: 40px;
+}
 .download {
-  margin-top: 114px;
-  margin-bottom: 125px;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 .d-content {
   width: 100%;
@@ -543,13 +558,14 @@ body {
 }
 
 .nav-head {
-  padding-left: 0px !important;
+  padding-left: 15px !important;
   
 }
 .nav-name{
   font-size: 25.92px;
   font-family: 'futura_book';
   font-weight: 600;
+  margin-left: 18px;
 }
 .logo{
   height: 30px;
@@ -663,7 +679,7 @@ body {
   display: block;
   color: #222222;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 20px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 300;
