@@ -525,15 +525,18 @@ body {
   cursor: pointer;
 }
 .footer {
-  padding-bottom: 5vh;
-  padding-top: 5vh;
+  /* padding-bottom: 5vh;
+  padding-top: 5vh; */
   box-shadow: 0 -35px 20px 0 rgba(0, 0, 0, 0.03);
 }
 .f-one {
+  margin-top: 70px;
+  margin-left: 15px;
   width: 40%;
 }
 .f-two {
   width: 60%;
+  
 }
 .f-two .child {
   display: flex;
@@ -705,6 +708,11 @@ body {
   font-size: 17px;
   font-family: 'avenir';
   color: #222222;
+  
+}
+.footer-links{
+  margin-left: 40px;
+  margin-top: 10px;
 }
 .footer-links div a{
   line-height: 2;
